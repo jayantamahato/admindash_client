@@ -1,0 +1,30 @@
+.linechart {
+  color: #00203fff;
+  display: flex;
+}
+
+.linechart-conternts {
+  width: 80%;
+}
+
+.chart-contents {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.chart-contents>.chart1,
+.chart2,
+.chart3 {
+  width: 98%;
+  box-shadow: 9px 9px 18px -4px rgba(0, 0, 0, 0.38);
+  border: 0.5px solid rgba(66, 66, 66, 0.081);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  border-radius: 10px;
+  margin: 15px;
+}

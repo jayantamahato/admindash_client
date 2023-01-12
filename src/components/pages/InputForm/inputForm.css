@@ -1,0 +1,39 @@
+.inputForm {
+  display: flex;
+}
+.forms-field {
+  width: 80%;
+}
+.entry-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 9px 9px 18px -4px rgba(0, 0, 0, 0.38);
+  border: 0.5px solid rgba(66, 66, 66, 0.081);
+  width: 95%;
+  border-radius: 10px;
+  height: 650px;
+  color: #00203fff;
+  margin: auto;
+}
+.entry-form > .title {
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.entry-form > form {
+  width: 98%;
+}
+.entry-form > form .rows-fields {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin: 15px;
+}
+.entry-form > form .submit-btn {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

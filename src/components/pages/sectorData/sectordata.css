@@ -1,0 +1,106 @@
+.sector-data {
+    padding: 5px;
+    height: 95vh;
+
+}
+
+.sector-data>.exit a {
+    color: red;
+    margin-left: 20px;
+}
+
+.sector-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.sector-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 9px 9px 18px -4px rgba(0, 0, 0, 0.38);
+    border-radius: 10px;
+    border: 0.5px solid rgba(66, 66, 66, 0.081);
+    padding: 5px;
+    height: 620px;
+    width: 550px;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.sector-list>.title {
+    text-transform: uppercase;
+}
+
+.sector-list>.list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.sector-list>.list div {
+    border: 0.5px solid rgba(66, 66, 66, 0.081);
+    margin: 5px;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.sector-list li {
+    list-style-type: none;
+    text-transform: capitalize;
+    margin-bottom: 2px;
+    display: flex;
+    cursor: pointer;
+
+}
+
+.sector-list>.list div:hover {
+    box-shadow: 9px 9px 18px -4px rgba(0, 0, 0, 0.118);
+
+}
+
+.details-widget {
+    display: flex;
+    flex-direction: column;
+}
+
+.details-widget>.pie-data,
+.details-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 9px 9px 18px -4px rgba(0, 0, 0, 0.38);
+    border-radius: 10px;
+    border: 0.5px solid rgba(66, 66, 66, 0.081);
+    padding: 5px;
+    height: 305px;
+    width: 850px;
+    margin: 5px;
+}
+
+.details-widget>.details-data {
+    height: 305px;
+    width: 350px;
+    flex-direction: column;
+    text-transform: capitalize;
+    align-items: flex-start;
+    padding-left: 20px;
+    justify-content: space-evenly;
+}
+
+.totaldata-in-pie-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 9px 9px 18px -4px rgba(0, 0, 0, 0.38);
+    border-radius: 10px;
+    border: 0.5px solid rgba(66, 66, 66, 0.081);
+    padding: 5px;
+    height: 620px;
+    width: 550px;
+}

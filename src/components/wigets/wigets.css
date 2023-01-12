@@ -1,0 +1,46 @@
+.wigets {
+  color: #00203fff;
+  box-shadow: 9px 9px 18px -4px rgba(0, 0, 0, 0.38);
+  width: 370px;
+  height: 150px;
+  border-radius: 10px;
+  border: 0.5px solid rgba(66, 66, 66, 0.081);
+  padding: 5px;
+  display: flex;
+}
+
+.wigets>.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+}
+
+.wigets>.left>.title {
+  text-transform: uppercase;
+}
+
+.wigets>.left>.values {
+  font-size: 15px;
+}
+
+.wigets>.right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 50%;
+}
+
+.wigets>.right>.links {
+  background-color: rgba(66, 66, 66, 0.081);
+  width: 80px;
+  text-align: center;
+  border-radius: 5px;
+  align-items: flex-end;
+}
+
+.wigets>.right>.links:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,46 @@
+/** @format */
+
+.home {
+  display: flex;
+}
+
+.home-container {
+  width: 80%;
+}
+
+.widgets-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.charts {
+  display: flex;
+  margin-top: 50px;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.charts>.line-chart {
+  width: 65%;
+}
+
+.charts>.pie-chart {
+  width: 30%;
+}
+
+.home-container>.charts {
+  display: flex;
+}
+
+.home-container>.charts>.line-chart {
+  box-shadow: 9px 9px 18px -4px rgba(0, 0, 0, 0.38);
+  border-radius: 10px;
+  border: 0.5px solid rgba(66, 66, 66, 0.081);
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 95%;
+}
